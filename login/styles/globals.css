@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --color-1: #100F0F;
+  --color-2: #0F3D3E;
+  --color-3: #E2DCC8;
+  --color-4: #F1F1F1;
+  --gray: #C4C4C4;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--color-4);
+  /* font-family: Encode Sans Condensed, sans-serif; */
+}
+a {
+  color: var(--color-1);
+  text-decoration: none;
+  font-weight: 600;
+}
+a:hover {
+  color: var(--color-3);
+  text-decoration: underline;
+}
+* {
+  box-sizing: border-box;
+}
+.m_1 {
+  margin: 10px;
+}
+.mt_1 {
+  margin-top: 1rem;
+}
+.mt_2 {
+  margin-top: 2rem;
+}
+.mt_3 {
+  margin-top: 3rem;
+}
+.mt_4 {
+  margin-top: 4rem;
+}
+.mt_5 {
+  margin-top: 5rem;
+}
+.mb_1 {
+  margin-bottom: 1rem;
+}
+.mb_2 {
+  margin-bottom: 2rem;
+}
+.mb_3 {
+  margin-bottom: 3rem;
+}
+.mb_4 {
+  margin-bottom: 4rem;
+}
+.mb_5 {
+  margin-bottom: 5rem;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 31.25px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--color-2);
+}
+.subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}

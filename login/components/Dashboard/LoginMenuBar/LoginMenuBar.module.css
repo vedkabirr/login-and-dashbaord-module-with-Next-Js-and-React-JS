@@ -1,0 +1,11 @@
+.listItem{
+    padding-left: 2rem;
+}
+.listItem.active{
+    border-left: 5px solid var(--green-1);
+}
+.listItemIcon{
+    justify-content: flex-end;
+    margin-right: 5px;
+    min-width: unset;
+}
