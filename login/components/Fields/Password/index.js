@@ -1,3 +1,4 @@
+/* eslint-disable react/display-name */
 import React, {useState} from "react"
 import {IconButton, InputAdornment, TextField} from "@mui/material"
 import Visibility from "@mui/icons-material/Visibility"

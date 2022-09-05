@@ -1,3 +1,4 @@
+/* eslint-disable react/display-name */
 import React from "react"
 
 const ActionBar = React.forwardRef(({type, placeholder, ...props}, ref) => {
